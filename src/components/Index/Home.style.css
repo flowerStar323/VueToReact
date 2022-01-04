@@ -1,0 +1,45 @@
+.home>.image {
+    max-width: 242px;
+}
+
+@screen sm {
+    .home>.image {
+        max-width: 450px;
+    }
+
+    .home>.logo {
+        width: 55px;
+        height: 64px;
+    }
+}
+
+@screen xl {
+    .home>.logo {
+        width: 64px;
+        height: 75px;
+    }
+
+    .home>.image {
+        max-width: 492px;
+    }
+}
+
+.logo {
+    width: 64px;
+    height: 75px;
+}
+
+.button {
+    border-radius: 0.375rem;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(196, 196, 196);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    background-color: rgb(227, 19, 55);
+}
